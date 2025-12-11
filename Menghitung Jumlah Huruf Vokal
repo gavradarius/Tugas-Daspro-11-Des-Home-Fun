@@ -1,0 +1,9 @@
+teks = input("Masukkan teks: ")
+
+vokal = "aiueoAIUEO"
+jumlah_vokal = 0
+
+for huruf in teks:
+    if huruf in vokal:
+        jumlah_vokal += 1
+print (f"Jumlah huruf vokal: {jumlah_vokal}")
